@@ -22,7 +22,6 @@ branches:
       required_linear_history: true
 
       restrictions:
-        users:
-          - micronaut-build
+        users: []
         apps: []
         teams: []
