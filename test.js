@@ -30,6 +30,6 @@ describe('fuzzySearch', () => {
     const searchTerm = '987';
     const res = await fuzzySearch(data, searchTerm);
 
-    expect(res[0]).toStrictEqual(data[1]);
+    expect(res[0]).toStrictEqual(data[3]);
   });
 });
