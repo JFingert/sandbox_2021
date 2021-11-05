@@ -18,6 +18,5 @@ branches:
         strict: true
         contexts: 
           - run-tests
-          - "unit tests"
       restrictions: null
       enforce_admins: null
